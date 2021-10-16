@@ -13,6 +13,8 @@ local instructions on the installations of raspbian
 ## 2: create new user
 * `sudo adduser disco`
 * prompt password
+* add disco to the sudoers
+* `sudo adduser disco sudo`
 
 ## 3: enable ssh, set the hostname
 `sudo raspi-config`
@@ -23,7 +25,24 @@ local instructions on the installations of raspbian
 
 * `sudo hostname -b disco-pi`
 
-
-
 ## 4: ssh into machine.
 * hook up ethernet wire to system.
+* `ssh disco@disco-pi`
+* prompt for password
+* now you are in!!!
+
+## 5: remove the default pi user
+* `sudo deluser pi`
+
+## update system software
+* `sudo apt-get update`
+* `sudo apt-get install vim -y`
+
+
+## 6: enable other login setup
+
+
+
+## ?: more setup
+* motd
+* replace with the motd file in this directory
