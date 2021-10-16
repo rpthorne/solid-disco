@@ -1,0 +1,29 @@
+local instructions on the installations of raspbian
+
+1:
+* https://www.raspberrypi.com/software/
+* download the Pi OS installer
+
+* run the isntaller on the sd card
+
+* use raspbain lite install.
+
+* boot raspbian using the screen pi for now. i think the boot is entirely contained on the raspi, so theis is best done by thorne
+
+## 2: create new user
+* `sudo adduser disco`
+* prompt password
+
+## 3: enable ssh, set the hostname
+`sudo raspi-config`
+3 Interfate Options
+* P2 SSH
+* enable
+* agree and stuff
+
+* `sudo hostname -b disco-pi`
+
+
+
+## 4: ssh into machine.
+* hook up ethernet wire to system.
