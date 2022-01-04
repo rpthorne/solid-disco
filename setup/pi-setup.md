@@ -36,7 +36,7 @@ local instructions on the installations of raspbian
 
 ## update system software
 * `sudo apt-get update`
-* `sudo apt-get install vim -y`
+* `sudo apt-get install docker vim -y`
 
 
 ## 6: enable other login setup
@@ -44,5 +44,5 @@ local instructions on the installations of raspbian
 
 
 ## ?: more setup
-* motd
+* /etc/motd
 * replace with the motd file in this directory
