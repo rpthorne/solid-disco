@@ -1,0 +1,6 @@
+design
+
+engines: 2 electric
+plane is based on 787:
+    https://modernairliners.com/boeing-787-dreamliner/boeing-787-dreamliner-specs/
+    
