@@ -36,7 +36,7 @@ local instructions on the installations of raspbian
 
 ## update system software
 * `sudo apt-get update`
-* `sudo apt-get install docker vim -y`
+* `sudo apt-get install -y docker vim python3-pip`
 
 
 ## 6: enable other login setup
