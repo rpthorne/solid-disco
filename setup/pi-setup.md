@@ -8,7 +8,7 @@ local instructions on the installations of raspbian
 
 * use raspbain lite install.
 
-* boot raspbian using the screen pi for now. i think the boot is entirely contained on the raspi, so theis is best done by thorne
+* boot raspbian using the screen pi for now. i think the boot is entirely contained on the raspi
 
 ## 2: create new user
 * `sudo adduser disco`
